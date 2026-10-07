@@ -168,7 +168,7 @@ Keep credentials out of task descriptions, feedback and metadata. Resuming an in
 
 ## Paper results
 
-The run records behind the paper's reported results are published as a separate dataset (DOI: `<DOI>`).
+The run records behind the paper's reported results are published as a separate dataset (DOI: [10.5281/zenodo.23213042](https://doi.org/10.5281/zenodo.23213042)).
 `paper/verify_claims.py` recomputes the paper's numbers from them; see [`paper/README.md`](paper/README.md).
 
 ## Not included
@@ -192,5 +192,5 @@ Add `--extra optuna --extra llm` to `uv run` to include the tests that need thos
 If you use this code in research, please cite **Prior or Feedback? What an LLM Uses When Adapting Neural Operators**
 (accepted to the NeurIPS 2026 AI4Science Workshop).
 
-[`CITATION.cff`](CITATION.cff) contains the software citation metadata. Publication identifiers will be added when
+[`CITATION.cff`](CITATION.cff) contains the software citation metadata. Paper publication identifiers will be added when
 available.

@@ -23,3 +23,15 @@ keywords:
   - experiment search
   - large language models
   - hyperparameter optimisation
+references:
+  - type: data
+    title: 'Run records for "Prior or Feedback? What an LLM Uses When Adapting Neural Operators"'
+    authors:
+      - family-names: Chan
+        given-names: Julian Jun Yen
+        orcid: "https://orcid.org/0009-0008-3597-9518"
+      - family-names: Mora Jimenez
+        given-names: Javier
+        orcid: "https://orcid.org/0009-0009-5449-7247"
+    doi: "10.5281/zenodo.23213042"
+    year: 2026

@@ -24,7 +24,7 @@ No PyTorch, PDEBench, FNO training code, or LLM API calls are needed.
 
 ## Run
 
-1. Download the run records from the dataset record (DOI: `<DOI>`) and unzip
+1. Download the run records from the dataset record (DOI: [10.5281/zenodo.23213042](https://doi.org/10.5281/zenodo.23213042)) and unzip
 them to a directory of your choice, for example `records/`.
 
 2. From the exported repository root:
