@@ -2,7 +2,7 @@
 
 This directory contains a standalone script that recomputes the numbers reported
 in the paper *Prior or Feedback? What an LLM Uses When Adapting Neural Operators*
-(NeurIPS 2026 workshop) from the released run records.
+(accepted to the NeurIPS 2026 AI4Science Workshop) from the released run records.
 
 ## Files
 

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using these metadata and cite the
+  accompanying paper, Prior or Feedback? What an LLM Uses When Adapting Neural
+  Operators, accepted to the NeurIPS 2026 AI4Science Workshop.
+type: software
+title: "Budgeted Search for AI4Science"
+authors:
+  - family-names: Chan
+    given-names: Julian
+  - family-names: Mora Jimenez
+    given-names: Javier
+repository-code: "https://github.com/julian-8897/budgeted-search-ai4science"
+version: "0.1.0"
+license: MIT
+abstract: >-
+  Reusable experiment-search scaffold accompanying Prior or Feedback? What an
+  LLM Uses When Adapting Neural Operators, accepted to the NeurIPS 2026
+  AI4Science Workshop. Includes LLM, Random, TPE and LLM-to-TPE hybrid controllers,
+  configurable prompts, run recording and replay, and paper claims verification.
+keywords:
+  - AI for Science
+  - experiment search
+  - large language models
+  - hyperparameter optimisation

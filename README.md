@@ -1,12 +1,16 @@
-# Budgeted experiment search
+# Budgeted Search for AI4Science
 
-Budgeted experiment search with four controllers: an LLM, Random, TPE, and an LLM warm-start followed by TPE.
-You supply the experiment and the search space. The core imports only the standard library; `optuna` and `openai`
-are optional extras loaded inside their controllers.
+Experiment-search code accompanying **Prior or Feedback? What an LLM Uses When Adapting Neural Operators**,
+accepted to the **NeurIPS 2026 AI4Science Workshop**.
 
-This tree accompanies our NeurIPS 2026 workshop paper, where an LLM acts as a budgeted experiment controller. It
-sees the full history of configurations and validation feedback, proposes the next configuration, and reduces an
-ensemble of samples to the medoid proposal.
+The scaffold provides four controllers: an LLM, Random, TPE, and an LLM warm-start followed by TPE. You supply
+an experiment and its search space. The core imports only the standard library; `optuna` and `openai` are optional
+extras loaded inside their controllers.
+
+The LLM controller sees the full history of configurations and validation feedback, proposes the next
+configuration, and selects the medoid from an ensemble of proposals. The repository includes an offline example,
+configurable prompts, run recording and replay, and a standalone script for verifying the paper's reported results
+from separately supplied run records.
 
 ## Install
 
@@ -185,4 +189,8 @@ Add `--extra optuna --extra llm` to `uv run` to include the tests that need thos
 
 ## Citation
 
-Citation metadata will be added on publication.
+If you use this code in research, please cite **Prior or Feedback? What an LLM Uses When Adapting Neural Operators**
+(accepted to the NeurIPS 2026 AI4Science Workshop).
+
+[`CITATION.cff`](CITATION.cff) contains the software citation metadata. Publication identifiers will be added when
+available.
