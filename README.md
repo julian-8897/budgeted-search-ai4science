@@ -1,6 +1,6 @@
 # Budgeted Search for AI4Science
 
-Experiment-search code accompanying **Prior or Feedback? What an LLM Uses When Adapting Neural Operators**,
+Experiment-search code accompanying **[Prior or Feedback? What an LLM Uses When Adapting Neural Operators](https://arxiv.org/abs/2610.12325)**,
 accepted to the **NeurIPS 2026 AI4Science Workshop**.
 
 The scaffold provides four controllers: an LLM, Random, TPE, and an LLM warm-start followed by TPE. You supply
@@ -190,7 +190,17 @@ Add `--extra optuna --extra llm` to `uv run` to include the tests that need thos
 ## Citation
 
 If you use this code in research, please cite **Prior or Feedback? What an LLM Uses When Adapting Neural Operators**
-(accepted to the NeurIPS 2026 AI4Science Workshop).
+(accepted to the NeurIPS 2026 AI4Science Workshop; [arXiv:2610.12325](https://arxiv.org/abs/2610.12325)).
 
-[`CITATION.cff`](CITATION.cff) contains the software citation metadata. Paper publication identifiers will be added when
-available.
+```bibtex
+@misc{chan2026prior,
+  title         = {Prior or Feedback? What an LLM Uses When Adapting Neural Operators},
+  author        = {Chan, Julian and Mora Jimenez, Javier},
+  year          = {2026},
+  eprint        = {2610.12325},
+  archivePrefix = {arXiv},
+  note          = {NeurIPS 2026 Workshop on AI for Science}
+}
+```
+
+[`CITATION.cff`](CITATION.cff) contains the software citation metadata.

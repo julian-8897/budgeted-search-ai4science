@@ -1,7 +1,7 @@
 # Paper claims verification
 
 This directory contains a standalone script that recomputes the numbers reported
-in the paper *Prior or Feedback? What an LLM Uses When Adapting Neural Operators*
+in the paper *[Prior or Feedback? What an LLM Uses When Adapting Neural Operators](https://arxiv.org/abs/2610.12325)*
 (accepted to the NeurIPS 2026 AI4Science Workshop) from the released run records.
 
 ## Files
